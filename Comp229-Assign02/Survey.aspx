@@ -1,11 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Survey.aspx.cs" Inherits="Comp229_Assign02.Survey" %>
+﻿<%@ Page Title="Survey" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Survey.aspx.cs" Inherits="Comp229_Assign02.Survey" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
-        <p>
-            When you are finished visiting Dell's support site, please take a minute to answer this quick survey.
-            Your feedback is critical to helping us improve how we can better meet your needs.
-        </p>
+
         <div class="form-group">
             <label>What are your reasons for visiting the Dell support website today?</label>
             <asp:DropDownList ID="ddlQuestion1" runat="server">

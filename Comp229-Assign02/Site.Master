@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scal=1" />
 
-    <title></title>
+    <title><%=Page.Title %></title>
 
     <!--CSS Sestion-->
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
@@ -33,18 +33,19 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="Default.aspx">Brand</a>
+                        <a class="navbar-brand" href="http://www.dell.com/en-ca/">
+                            <img alt="Brand" src="Assets/dellLogo.png" width="30" height="30"/> </a>
                     </div>
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                            <li><a href="#">Link</a></li>
+                            
+                            <li id="home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg" aria-hidden="true"></i>  Home</a></li>
 
                         </ul>
 
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="Survey.aspx">Survey</a></li>
+                            <li id="survey" runat="server"><a href="Survey.aspx"><i class="fa fa-question fa-lg" aria-hidden="true"></i>  Survey</a></li>
 
                         </ul>
                     </div>
@@ -58,6 +59,10 @@
         </div>
         <footer role="contentinfo">
             <div class="row">
+                  <div class="col-md-4 col-md-offset-4">
+                &copy;&nbsp;Copyright 2017 - Sylvere Ekponon <br>
+                Credit : <a href="http://www.dell.com/content/topics/reftopic.aspx/pub/esupport_survey2c">Dell.com</a>
+                      </div>
             </div>
         </footer>
     </form>

@@ -11,7 +11,20 @@ namespace Comp229_Assign02
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            SetActivePage();
+        }
+        private void SetActivePage()
+        {
+            switch (Page.Title)
+            {
+                case "Home":
+                    home.Attributes.Add("class", "active");
+                    break;
+                case "Survey":
+                    survey.Attributes.Add("class", "active");
+                    break;
 
+            }
         }
     }
 }
