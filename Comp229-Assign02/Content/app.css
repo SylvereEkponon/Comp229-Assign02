@@ -1,0 +1,16 @@
+﻿/*custom css goes here */
+/* Name: Sylvere Ekponon */
+/* Student ID: 300936445 */
+/* Date: September 30, 2017 */
+/* app.css file */
+
+body {
+    padding-top: 70px;
+}
+
+footer{
+    background-color:aqua;
+    margin-top:50px;
+    padding-top:50px;
+    padding-bottom:70px;
+}
